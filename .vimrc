@@ -21,6 +21,8 @@ set laststatus=2
 " status line info
 set statusline=%-(%f%m%h%q%r%w%)%=%l,%c
 
+set backspace=indent,eol,start
+
 " memory cursor position
 function! s:RestoreCursorPostion()
   if line("'\"") <= line("$")
